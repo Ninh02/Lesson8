@@ -7,18 +7,21 @@
 <body>
 <script>
     let usename=prompt("who's there?","");
-    let passwork=prompt("passwork?","");
-    if (usename==admin) {
-        alert("nhap mat khau:")
+    if (usename==admin){
+        alert("wellcome");
         }else if(usename==null){
             alert("canceld");
         }else {
             alert("i don'n know you ");
         }
+    let passwork=prompt('passwork',"");
+    if (passwork==themaster) {
+        alert('wellcome');
+    }else if (passwork==null){
+        alert('canseled');
+    }else {
+        alert('wrong passwork');
     }
-
-
 </script>
-
 </body>
 </html>

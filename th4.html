@@ -6,18 +6,19 @@
 </head>
 <body>
 <script>
-    switch (browser){
-        case'edge':
-            alert("you've got the edge!");
-            break;
-        case'chrom':
-        case 'firefox':
-        case 'safari':
-        case 'opera':
-            alert("okay we support these browsers too");
-            break;
-        default:
-            alert("we hope that this page looks ok!");
+    let browser=String(prompt("Trinh duyet"));
+    switch (browser) {
+    case 'Edge':
+        alert("You've got the Edge!");
+        break;
+    case 'Chrome':
+    case 'Firefox':
+    case 'Safari':
+    case 'Opera':
+        alert('Okay we support these browsers too');
+        break;
+    default:
+        alert('We hope that this page looks ok!');
     }
 </script>
 
