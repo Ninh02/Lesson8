@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh so ngay trong thang</title>
+</head>
+<body>
+<script>
+    let n = prompt("nhap thang");
+    n = parseInt(n)
+    switch (n) {
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            document.write("thang" + n +" co 31 ngay");
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            document.write("thang" +n+" co 30 ngay");
+            break;
+        case 2:
+            document.write("thang 2 co 28 hoac 29 ngay");
+            break;
+        default:
+            document.write("nhap lai thang");
+    }
+</script>
+
+</body>
+</html>
